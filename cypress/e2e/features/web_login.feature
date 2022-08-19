@@ -1,7 +1,5 @@
-Feature: Login page
-
-    Feature Login page will work depending on the user credentials.
-
+@full
+Feature: Login
     Background:
         Given A user opens a saucelabs website
     Scenario: Success Login
