@@ -13,6 +13,7 @@
   "author": "cucumber",
   "license": "ISC",
   "devDependencies": {
+    "@applitools/eyes-cypress": "^3.27.1",
     "@badeball/cypress-cucumber-preprocessor": "^12.0.1",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.1.3",
     "cypress": "^10.4.0",

@@ -20,3 +20,6 @@ module.exports = defineConfig({
     chromeWebSecurity: false,
   },
 });
+
+
+require('@applitools/eyes-cypress')(module);

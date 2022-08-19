@@ -50,3 +50,5 @@ Thumbs.db
 
 #agregados
 reports/
+jsonlogs/
+cucumber-report.html

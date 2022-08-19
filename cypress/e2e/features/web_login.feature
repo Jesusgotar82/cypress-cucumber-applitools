@@ -1,5 +1,5 @@
 @full
-Feature: Login
+Feature: web_login
     Background:
         Given A user opens a saucelabs website
     Scenario: Success Login
