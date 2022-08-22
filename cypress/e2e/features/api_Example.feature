@@ -15,7 +15,7 @@
             | "GENMAX 3200 Watt Inverter Generator" |
             | "20V Max Drill & Home Tool Kit" |
 
-    Scenario: Búsqueda de lista de herramientas
+    Scenario Outline: Búsqueda de lista de herramientas
         Given As a user I want to execute a GET for <numberOfItems> <ToolCategory>
         Then Verify '@get_tools_data' response status code is <statusCode>
         And Verify the number of tools obtained equals <numberOfItems>

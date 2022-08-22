@@ -1,4 +1,4 @@
-@full
+@full @web
 Feature: web_login
     Background:
         Given A user opens a saucelabs website
