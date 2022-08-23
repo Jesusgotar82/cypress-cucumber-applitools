@@ -50,5 +50,7 @@ Thumbs.db
 
 #agregados
 reports/
-jsonlogs/
 cucumber-report.html
+cypress/screenshots/
+files/
+jsonlogs/

@@ -1,7 +1,7 @@
 @full @web @pwa
 Feature: web_login
     Background:
-        Given A user opens a saucelabs website
+        Given A user opens a saucelabs website in [414, 896]
     Scenario: Success Login
         When A user enters the username "standard_user"
         And A user enters the password "secret_sauce"
