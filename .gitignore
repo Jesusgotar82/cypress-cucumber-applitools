@@ -54,3 +54,4 @@ cucumber-report.html
 cypress/screenshots/
 files/
 jsonlogs/
+*.traineddata
