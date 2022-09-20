@@ -6,6 +6,18 @@ import {
 } from "@badeball/cypress-cucumber-preprocessor";
 const loginPage = require("../../pages/LoginPage");
 
+Given("A user opens the website {} in {}", (websiteUrl, deviceScreen) => {
+  cy.log(websiteUrl)
+  cy.log(deviceScreen)
+  if (String(deviceScreen).includes('[')){
+    var pixels = deviceScreen.replace('[', '').replace(']', '').split(",").map(Number);
+    cy.viewport(pixels[0], pixels[1])
+  }else{
+    cy.viewport(deviceScreen)
+  }
+  cy.visit("/");
+});
+
 Given("A user opens a saucelabs website in {}", (deviceScreen) => {
   cy.log(deviceScreen)
   if (String(deviceScreen).includes('[')){
